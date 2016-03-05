@@ -20,6 +20,9 @@ module.exports = (robot) ->
   #   else
   #     res.reply "Opening #{doorType} doors"
   #
+  robot.hear /breakfast/i, (res) ->
+    res.send 'Did someone say breakfast?'
+
   robot.hear /I like pie/i, (res) ->
     res.emote "makes a freshly baked pie"
   #
