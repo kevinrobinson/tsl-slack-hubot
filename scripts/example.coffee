@@ -26,7 +26,7 @@ module.exports = (robot) ->
   robot.hear /I like pie/i, (res) ->
     res.emote "makes a freshly baked pie"
     
-robot.respond /make (waffles)/i, (res) ->
+  robot.respond /make (waffles)/i, (res) ->
     res.emote "makes the best waffles you've ever had"
 
   #
